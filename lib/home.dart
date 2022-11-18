@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.amber,
-        title: const Text('PAYMENT METHOD '),
+        title: const Text('PAYMENT METHOD (STRIPE) '),
         centerTitle: true,
         toolbarHeight: 80,
       ),
