@@ -132,7 +132,7 @@ class _HomeScreenState extends State<HomeScreen> {
           body: body,
           headers: {
             'Authorization':
-                'Bearer sk_test_51L8PzGKEp9uhBKrrWhzpS6OoCZSlUfjEakjHRoLwBOrcSLeUDUZZw1QbX7BgWXjV6w9SMcDLAUlRzorynyrC1OrV00c4HIw4Ns',
+                'Bearer sk_test keys',
             'Content-Type': 'application/x-www-form-urlencoded'
           });
       return jsonDecode(response.body);
