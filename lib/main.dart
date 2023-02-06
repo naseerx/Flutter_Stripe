@@ -1,10 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:stripe_flutter/home.dart';
+
+import 'home.dart';
 
 void main() {
   Stripe.publishableKey =
-      'your stripe key';
+      'pk_test_51L8PzGKEp9uhBKrrUaQGs8uNSewO9Lm85zYGJSJZ2I5nlYSnBtGRBa7Abky4uTxR4LYx2TMjkwJ48HJ6CZKVwLFo003wdImXQs';
   runApp(const MyApp());
 }
 
